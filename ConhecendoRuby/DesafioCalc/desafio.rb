@@ -56,10 +56,15 @@ loop do
             num1 = gets.chomp.to_i
             puts "Digite o segundo número:"
             num2 = gets.chomp.to_i
-            divisao = num1 / num2
-            resultado = "Resultado: #{divisao}"
-            puts resultado
-            puts ''
+            if num2 != 0
+                divisao = num1 / num2
+                resultado = "Resultado: #{divisao}"
+                puts resultado
+                puts ''
+            else
+                puts "Não é possível dividir por zero"
+                puts ''
+            end
         when 0
             puts ''
             puts "Você está saindo do programa. Tem certeza?"
