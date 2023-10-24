@@ -1,4 +1,4 @@
-# rubyChallange1
+# Desafios em Ruby - DIO
 
 ## Conhecendo a Linguagem Ruby
 #### Pasta ConhecendoRuby
