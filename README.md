@@ -1,3 +1,3 @@
 # rubyChallange1
 
-O desafio 'Primeiro projeto com Ruby' pode ser encontrado na pasta desafio.rb
+O desafio 'Primeiro projeto com Ruby' pode ser encontrado no arquivo desafio.rb da pasta Desafio1.
