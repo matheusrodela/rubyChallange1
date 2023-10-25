@@ -7,7 +7,7 @@
 #Podemos iniciar com pares CHAVE-VALOR variavel = {chave: 'valor', chave: 'valor'}
     # animais = {ave: 'Tucano', peixe: 'Baiacu'}
 
-#adicione um nome item ao hash variavel [:nome inclusão] = "valor a ser add" -> se usar com chave que já existe ele vai substituir
+#adicione um novo item ao hash variavel [:nome inclusão] = "valor a ser add" -> se usar com chave que já existe ele vai substituir
     # animais[:inseto] = "mosquito"
 
 #para retornar todas as chaves de um hash nome.keys
