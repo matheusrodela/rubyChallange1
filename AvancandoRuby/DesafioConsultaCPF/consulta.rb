@@ -1,12 +1,32 @@
 
 require "cpf_cnpj"
 
-puts "Digite seu CPF:"
+#SIMPLES
 
-cpf = gets.chomp
+#puts "Digite seu CPF:"
 
-if CPF.valid?(cpf)
-    puts "CPF válido"
-else
-    puts "CPF inválido"
+#cpf = gets.chomp
+
+#if CPF.valid?(cpf)
+#    puts "CPF válido"
+#else
+#    puts "CPF inválido"
+#end
+
+
+#USANDO METODO
+def checkCpf(cpfNumber)
+    if CPF.valid?(cpfNumber)
+        return "CPF válido"
+    else
+        return "CPF inválido"
+    end
 end
+
+print 'Digite seu CPF: '
+
+cpfNumber = gets.chomp
+
+result = checkCpf(cpfNumber)
+
+puts result
